@@ -70,8 +70,8 @@ jobs:
 
       - name: Run node script
         env:
-          IG_USERNAME: '${{ secrets.IG_USERNAME }}'
-          IG_PASSWORD: '${{ secrets.IG_PASSWORD }}'
+          IG_USERNAME: '${{ secrets.Vikash.waghela}}'
+          IG_PASSWORD: '${{ secrets.8058974497 }}'
           # UNSPLASH_ACCESS_KEY: '${{ secrets.UNSPLASH_ACCESS_KEY }}'
           QUOTES_API_KEY: '${{ secrets.QUOTES_API_KEY }}'
         run: ts-node app.ts
